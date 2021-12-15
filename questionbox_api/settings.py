@@ -158,3 +158,5 @@ REST_FRAMEWORK = {
 # https://github.com/adamchainz/django-cors-headers
 
 CORS_ALLOW_ALL_ORIGINS: True
+
+AUTH_USER_MODEL = "questionbox.User"
